@@ -2,34 +2,88 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Moje Portfolio</title>
+    <title>Zaneta Zuranska</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Twoje Imi�</h1>
-        <p>Python Developer / Student</p>
-    </header>
+<nav class="navbar">
 
-    <section>
-        <h2>O mnie</h2>
-        <p>Tworz� aplikacje w Pythonie (GUI, analiza danych, wizualizacje).</p>
-    </section>
+    <!-- LOGO -->
+    <div class="logo">
+        <div class="logo-mark">
+            <span class="logo-top">Ż</span>
+            <span class="logo-bottom">Ż</span>
+        </div>
+        <div class="logo-text">
+            <h1>ŻANETA ŻURAŃSKA</h1>
+            <p>Game Programmer & Team Leader</p>
+        </div>
+    </div>
 
-    <section>
-        <h2>Projekty</h2>
-        <ul>
-            <li>Integrator GUI (Tkinter + Matplotlib)</li>
-            <li>Analiza obraz�w (FFT + ML)</li>
-        </ul>
-    </section>
+    <!-- MENU -->
+    <ul class="menu">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Tech Stack</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
 
-    <section>
-        <h2>Kontakt</h2>
-        <p>Email: twojmail@gmail.com</p>
-        <p>GitHub: github.com/twojnick</p>
-    </section>
+    <!-- RIGHT SIDE -->
+    <div class="nav-right">
+
+    <div class="socials">
+        <a href="https://github.com/zanetazuranska" target="_blank" rel="noopener noreferrer">
+            <img src="res/GitHub_Invertocat_White_Clearspace.svg" alt="GitHub">
+        </a>
+
+        <a href="https://www.linkedin.com/in/%C5%BCaneta-%C5%BCura%C5%84ska-6b0505299/" target="_blank" rel="noopener noreferrer">
+            <img src="res/InBug-White.png" alt="LinkedIn">
+        </a>
+    </div>
+
+        <a href="contact.html" class="contact-btn">
+            ✉ Get in touch
+        </a>
+
+    </div>
+
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <img src="res/avatar.png" class="avatar">
+        <h1>Hi, I'm <span>Zaneta</span></h1>
+        <p>Game Dev & Programmer</p>
+
+        <div class="buttons">
+            <a href="#" class="btn primary">View Projects</a>
+            <a href="#" class="btn secondary">About Me</a>
+        </div>
+    </div>
+</section>
+
+<section class="projects">
+    <h2>Selected Projects</h2>
+
+    <div class="project-grid">
+        <div class="card">
+            <h3>Integrator GUI</h3>
+            <p>Numerical integration tool with visualization.</p>
+        </div>
+
+        <div class="card">
+            <h3>FFT Analysis</h3>
+            <p>Image classification using frequency features.</p>
+        </div>
+
+        <div class="card">
+            <h3>Robot 3D</h3>
+            <p>Interactive 3D scene in Processing.</p>
+        </div>
+    </div>
+</section>
 
 </body>
 </html>
