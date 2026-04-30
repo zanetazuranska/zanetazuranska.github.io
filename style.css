@@ -383,6 +383,14 @@ body {
     transition: 0.3s;
 }
 
+.galleryTop img {
+    width: 500px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
 .gallery img:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px #b16cff;
