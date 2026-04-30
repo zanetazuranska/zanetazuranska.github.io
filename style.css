@@ -469,3 +469,84 @@ body {
     transform: translateX(5px);
     box-shadow: 0 0 10px #b16cff;
 }
+
+.about-page {
+    padding: 100px 50px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-page h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #b16cff;
+}
+
+.about-page h2 {
+    margin-top: 40px;
+    color: #b16cff;
+    font-size: 22px;
+    border-left: 3px solid #b16cff;
+    padding-left: 10px;
+}
+
+.about-page p {
+    line-height: 1.7;
+    margin: 15px 0;
+    color: #e6e6e6;
+}
+
+.event {
+    background: #151528;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 40px auto;
+    max-width: 900px;
+    text-align: left;
+    transition: 0.3s;
+    border-left: 3px solid #b16cff;
+}
+
+.event:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #b16cff;
+}
+
+.event h3 {
+    color: #b16cff;
+    margin-bottom: 10px;
+}
+
+.event p {
+    line-height: 1.6;
+    color: #e6e6e6;
+}
+
+.event ul {
+    margin-top: 15px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.event li {
+    background: none;
+    border: none;
+    padding: 5px 0;
+    color: #ddd;
+}
+
+.event-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #b16cff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.event-link:hover {
+    color: white;
+    transform: translateX(5px);
+}
