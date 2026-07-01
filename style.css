@@ -977,6 +977,64 @@ opacity:.8;
     font-weight: 500;
 }
 
+.role-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+
+    background: #151528;
+    border: 1px solid rgba(255,255,255,0.06);
+    border-left: 3px solid #b16cff;
+    border-radius: 12px;
+
+    text-align: left;
+}
+
+.role-section h2 {
+    color: #b16cff;
+    margin-bottom: 15px;
+}
+
+.role-section p {
+    color: #d7d7e0;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.role-block {
+    margin-top: 20px;
+}
+
+.role-block h3 {
+    color: #b16cff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.role-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.role-block li {
+    background: rgba(255,255,255,0.03);
+    border-left: 2px solid rgba(177,108,255,0.6);
+
+    padding: 10px 12px;
+    margin-bottom: 8px;
+
+    border-radius: 6px;
+    color: #d7d7e0;
+
+    transition: 0.2s;
+}
+
+.role-block li:hover {
+    transform: translateX(4px);
+    border-left-color: #b16cff;
+}
+
 .repo-ps {
     display: grid;
     grid-template-columns: 1fr 1fr;

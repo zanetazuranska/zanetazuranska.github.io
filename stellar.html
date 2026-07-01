@@ -4,7 +4,20 @@
     <meta charset="UTF-8">
     <title>Stellar Outbreak - Zaneta Zuranska</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
+<script>
+document.getElementById("toTop").addEventListener("click", function(e) {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+</script>
+
+
 <body>
 
 <nav class="navbar">
@@ -49,103 +62,357 @@
 
 </nav>
 
-<!-- ===== PROJECT ===== -->
+
 <section class="project-page">
 
     <h1>Stellar Outbreak</h1>
 
-    <div class="galleryTop">
+    <div class="hero-project">
 
-        <img src="res/stellar.png" alt="Stellar screenshot">
+        <div class="hero-image">
+            <img src="res/stellar.png" alt="Astatinum screenshot">
+        </div>
 
-    </div>
+        <div class="hero-info">
+            <p>
+                Stellar Outbreak is a sci-fi action game created in collaboration with friends from Strong Boat Studio and developed in cooperation with <strong>Woodland Games</strong>.
+            </p>
 
-
-    <p>
-        Stellar Outbreak is a sci-fi action game created in collaboration with friends from Strong Boat Studio and developed in cooperation with Woodland Games.
-    </p>
-
-    <p>
-        The player takes on the role of a scientist and crew member of a space expedition sent to conduct a high-level experiment for the sake of the nation.
-        However, the mission quickly spirals out of control when a mysterious virus is released onboard.
-        Humans begin to mutate, and it becomes clear that returning to Earth was never part of the plan.
-    </p>
-
-    <h2>My Role in the Project</h2>
-
-    <p>
-        This project was developed as a full-day challenge within Strong Boat Studio.  
-        I was responsible for both gameplay systems and project coordination.
-    </p>
-
-    <p><strong>Gameplay & Systems:</strong></p>
-
-    <ul>
-        <li>Combat system</li>
-        <li>Mutant AI behavior</li>
-        <li>NPC system</li>
-        <li>Animation logic</li>
-        <li>Quick Time Events (QTE)</li>
-        <li>Weapon systems</li>
-        <li>Stealth / hiding system</li>
-        <li>Environmental trash system</li>
-        <li>Final boss implementation</li>
-        <li>Particles & VFX</li>
-    </ul>
-
-    <p><strong>Project Management:</strong></p>
-
-    <p>
-        I also coordinated the development process, managing tasks and communication within the team.
-        Despite being a one-day challenge, it was a highly intensive experience that significantly improved my skills.
-    </p>
-
-    <p><strong>Tools used:</strong></p>
-
-    <ul>
-        <li>Trello</li>
-        <li>Discord</li>
-        <li>Miro</li>
-    </ul>
-
-    <h2>Technologies Used</h2>
-
-    <div class="tech-stack">
-        <span class="tech">Unity</span>
-        <span class="tech">FMOD</span>
-        <span class="tech">Inky</span>
-    </div>
-
-    <h2>Link to repository</h2>    
-    <a href="https://github.com/StrongBoat-studio/Project-Z" class="download-btn" target="_blank">
-        ⬇ View Repository (GitHub)
-    </a>
-
-    <h2>Gameplay Video</h2>
-
-    <div class="video-container">
-        <a href="https://www.youtube.com/watch?v=Y0IJHvYmjVM " target="_blank">
-            ▶ Click to watch on YouTube
-        </a>
-    </div>
-
-        <h2>Gallery</h2>
-
-    <div class="gallery">
-
-        <img src="res/s1.png" alt="Astatinum screenshot">
-        <img src="res/s2.png" alt="Astatinum screenshot">
-        <img src="res/s3.png" alt="Astatinum screenshot">
+            <p>
+                The player takes on the role of a scientist and crew member of a space expedition sent to conduct a high-level experiment for the sake of the nation.
+                However, the mission quickly spirals out of control when a mysterious virus is released onboard.
+                Humans begin to mutate, and it becomes clear that returning to Earth was never part of the plan.
+            </p>
+        </div>
 
     </div>
 
-    <h2>Download</h2>
+    <details class="section-box" open>
+        <summary>
+            Team
+            <span class="arrow">▾</span>
+        </summary>
 
-    <a href=https://drive.google.com/file/d/1mYkRAbw-X5RdtQC_CQXwHx7ZKesCPI8c/view?usp=sharing" class="download-btn" target="_blank">
-        ⬇ Download Build (Google Drive)
-    </a>
+        <div class="team-section">
+            <div class="team-logo-wrapper">
+                <img src="res/sbs.png" class="team-logo" alt="Team Logo">
+            </div>
+
+            <div class="team-table">
+
+                <h4>Team Members</h4>
+
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                    </tr>
+
+                    <tr>
+                        <td>Jakub Piński</td>
+                        <td>Artist</td>
+                    </tr>
+
+                    <tr>
+                        <td>Natalia Budzińska</td>
+                        <td>Artist</td>
+                    </tr>
+
+                    <tr>
+                        <td>Dominika Spychała</td>
+                        <td>Game Designer</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bartosz Majewski</td>
+                        <td>Game Designer</td>
+                    </tr>
+
+                    <tr>
+                        <td>Mateusz Lipiński</td>
+                        <td>Programmer</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wiktor Sadowski</td>
+                        <td>Audio Designer</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wiktor Woźny</td>
+                        <td>Audio Designer</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="role-section">
+
+                <h2>My Role in the Project</h2>
+
+                <p>
+                    This project was developed as a full-day challenge within Strong Boat Studio.
+                    I was responsible for both gameplay programming and supporting team coordination during production.
+                </p>
+
+                <div class="role-block">
+                    <h3>Gameplay & Systems</h3>
+
+                    <ul>
+                        <li>Combat system implementation</li>
+                        <li>Mutant AI behavior and logic</li>
+                        <li>NPC interaction system</li>
+                        <li>Animation and state machine integration</li>
+                        <li>Quick Time Events (QTE) system</li>
+                        <li>Weapon mechanics and handling</li>
+                        <li>Stealth and hiding mechanics</li>
+                        <li>Environmental interaction system</li>
+                        <li>Final boss fight implementation</li>
+                        <li>Particles and visual effects (VFX)</li>
+                    </ul>
+                </div>
+
+                <div class="role-block">
+                    <h3>Project Management</h3>
+
+                    <p>
+                        Beyond programming, I supported the team by helping coordinate tasks and maintaining communication during development.
+                        Even though this was a one-day challenge, it was a highly intensive experience that significantly improved my technical and organizational skills.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Technologies Used
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="tech-stack">
+            <ul class="tech-list">
+                <li>Unity</li>
+                <li>FMOD</li>
+                <li>Inky</li>
+                <li>Trello</li>
+                <li>Discord</li>
+                <li>Miro</li>
+            </ul>
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Codebase
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="repo-card">
+            <div class="repo-title">Stellar Outbreak</div>
+
+            <p class="repo-desc">
+                Source code for gameplay systems, enemy AI, boss logic, and FMOD integration.
+            </p>
+
+            <div class="repo-actions">
+                <a href="https://github.com/StrongBoat-studio/Project-Z" target="_blank">
+                    View on GitHub →
+                </a>
+            </div>
+        </div>
+
+        <div class="code-block">
+            <div class="code-title">Where the most interesting code is located</div>
+
+            <pre><code>
+                Assets/_Game/Scripts/Mutant
+                Assets/_Game/Scripts/Boss
+                Assets/_Game/Scripts/Throw/ThrowController.cs
+            </code></pre>
+        </div>
+
+        <div class="repo-card">
+
+            <p class="repo-desc">
+                The most interesting part of this project was the enemy AI system.
+                From today’s perspective, it was my first fully functional AI system for enemies,
+                and I still consider it one of the most enjoyable systems I’ve worked on.
+            </p>
+
+            <p class="repo-desc">
+                The enemies behave dynamically — they patrol, chase the player, attack, die,
+                and can also interact with environmental objects such as trash.
+            </p>
+
+            <p class="repo-desc">
+                The player is able to hide from enemies inside lockers, which adds a stealth layer
+                to the gameplay and increases tension during encounters.
+            </p>
+
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Development Notes
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="repo-ps">
+
+        <div class="ps-block">
+            <h4>Project Challenges</h4>
+            <p class="ps-intro">
+                Stellar Outbreak was a team project developed under the patronage of Woodland Games.
+                The production followed a structured pipeline with regular milestones, meetings, and progress reports,
+                which introduced us to a real production environment for the first time.
+            </p>
+
+            <ul>
+                <li>
+                    Designing the AI system at a time when tools like ChatGPT were not available,
+                    which required heavy reliance on documentation, experimentation, and repeated code iterations.
+                </li>
+
+                <li>
+                    Early reliance on overly complex “if-based” logic, which made the system hard to maintain and extend.
+                </li>
+
+                <li>
+                    Frequent merge conflicts and scene management issues during early production stages.
+                </li>
+
+                <li>
+                    Designing a dialogue system capable of handling all in-game scenarios while maintaining consistent narrative flow.
+                </li>
+            </ul>
+        </div>
+
+        <div class="ps-block">
+            <h4>How We Solved It</h4>
+                <p class="ps-intro">
+                    To address the challenges we encountered during production, we focused on iterative development, refactoring existing systems,
+                    and introducing more structured workflows. Each solution was implemented progressively as issues appeared, allowing us to
+                    continuously improve both code quality and team coordination throughout the project.
+                </p>
+
+            <ul>
+                <li>
+                    We approached AI development iteratively, starting with simple behaviors and gradually combining them into a more complex system through continuous testing and debugging.
+                </li>
+
+                <li>
+                    We refactored the AI into a state machine architecture, separating behaviors into clear states such as patrol, chase, and attack, which improved readability and scalability.
+                </li>
+
+                <li>
+                    We introduced a structured prefab-based workflow and clearer rules for scene and asset management, significantly reducing merge conflicts and improving team coordination.
+                </li>
+
+                <li>
+                    We implemented a NPC system connected with the dialogue system, which dynamically switched dialogue lines based on the current quest state. This allowed conversations to adapt to player progress and ensured consistent narrative flow across different gameplay situations.
+                </li>
+            </ul>
+        </div>
+
+            <div class="ps-block">
+                <h4>What I would do differently</h4>
+
+                <p>
+                    Looking back, this project was one of the most important learning experiences in my development journey.
+                    Although we were working under real production constraints and strict milestones,
+                    it forced us to quickly adapt, communicate effectively, and solve complex problems as a team.
+                </p>
+
+                <p>
+                    If I could change one thing, it would be finishing and releasing the game before the team eventually split
+                    and moved in different directions for university. Despite the project never reaching a full public release,
+                    the experience itself became extremely valuable.
+                </p>
+            </div>
+
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Gameplay Video
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="video-container">
+            <iframe
+                width="100%"
+                height="420"
+                src="https://www.youtube.com/embed/Y0IJHvYmjVM"
+                title="Gameplay Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Gallery
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="gallery">
+            <img src="res/s1.png" alt="Astatinum screenshot">
+            <img src="res/s2.png" alt="Astatinum screenshot">
+            <img src="res/s3.png" alt="Astatinum screenshot">
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Download
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="download-card">
+
+            <div class="download-title">
+                Play Stellar Outbreak
+            </div>
+
+            <p class="download-desc">
+                Download the latest playable Windows build of the project.
+            </p>
+
+            <div class="download-info">
+                <span>Platform: Windows</span>
+                <span>Distribution: Google Drive</span>
+            </div>
+
+            <div class="repo-actions">
+                <a href="https://drive.google.com/file/d/1mYkRAbw-X5RdtQC_CQXwHx7ZKesCPI8c/view?usp=sharing"
+                target="_blank">
+                    Download Build →
+                </a>
+            </div>
+
+        </div>
+    </details>
 
 </section>
+
+<div class="bottom-navigation">
+    
+    <a href="projects.html" class="nav-btn">
+        ← Back to Projects
+    </a>
+
+    <a href="#" class="nav-btn" id="toTop">
+        ↑ Back to Top
+    </a>
+
+</div>
 
 </body>
 </html>
