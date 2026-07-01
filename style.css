@@ -414,7 +414,23 @@ opacity:.8;
     object-fit:cover;
     border-radius:14px;
     margin-bottom:20px;
+    margin-top:20px;
     transition:.45s;
+}
+
+.project-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+/* DATA — minimalistyczna, nie badge */
+.project-date {
+    font-size: 13px;
+    color: #888;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 .timeline-content:hover .project-img{
