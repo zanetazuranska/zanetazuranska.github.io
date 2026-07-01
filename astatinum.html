@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Astatinum - Zaneta Zuranska</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -54,59 +58,275 @@
 
     <h1>Astatinum</h1>
 
-    <div class="galleryTop">
+    <div class="hero-project">
 
-        <img src="res/astatinum.png" alt="Astatinum screenshot">
+        <div class="hero-image">
+            <img src="res/astatinum.png" alt="Astatinum screenshot">
+        </div>
+
+        <div class="hero-info">
+            <p>
+                Astatinum is a story-driven game created for the “Turniej Trójgamiczny” competition,
+                where our project ranked in the top 10 teams.
+            </p>
+
+            <p>
+                The game tells the story of a young girl living in a post-war world, trying to save her ill grandfather.
+                His heart is supported by a special device that requires astatinum — an extremely rare and hard-to-obtain element.
+                Faced with this challenge, she sets out alone on a dangerous journey to find it.
+            </p>
+        </div>
 
     </div>
 
-    <p>
-        Astatinum is a story-driven game created for the “Turniej Trójgamiczny” competition,
-        where our project ranked in the top 10 teams.
-    </p>
+    <details class="section-box" open>
+        <summary>
+            Team
+            <span class="arrow">▾</span>
+        </summary>
 
-    <p>
-        The game tells the story of a young girl living in a post-war world, trying to save her ill grandfather.
-        His heart is supported by a special device that requires astatinum — an extremely rare and hard-to-obtain element.
-        Faced with this challenge, she sets out alone on a dangerous journey to find it.
-    </p>
+        <div class="team-section">
+            <div class="team-logo-wrapper">
+                <img src="res/sbs.png" class="team-logo" alt="Team Logo">
+            </div>
 
-    <h2>Technologies Used</h2>
+            <div class="team-table">
 
-    <div class="tech-stack">
-        <span class="tech">Unity</span>
-        <span class="tech">FMOD</span>
-        <span class="tech">Inky</span>
-    </div>
+                <h4>Team Members</h4>
 
-    <h2>Link to repository</h2>    
-    <a href="https://github.com/StrongBoat-studio/Astatinum" class="download-btn" target="_blank">
-        ⬇ View Repository (GitHub)
-    </a>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                    </tr>
 
-    <h2>Gameplay Video</h2>
+                    <tr>
+                        <td>Jakub Piński</td>
+                        <td>Artist</td>
+                    </tr>
 
-    <div class="video-container">
-        <a href="https://www.youtube.com/watch?v=MHqaHeWEAPk" target="_blank">
-            ▶ Click to watch on YouTube
+                    <tr>
+                        <td>Natalia Budzińska</td>
+                        <td>Artist</td>
+                    </tr>
+
+                    <tr>
+                        <td>Aleksander Rogiewicz</td>
+                        <td>Artist</td>
+                    </tr>
+
+                    <tr>
+                        <td>Paweł Kalinowski</td>
+                        <td>Artist</td>
+                    </tr>
+
+                    <tr>
+                        <td>Dominika Spychała</td>
+                        <td>Game Designer</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bartosz Majewski</td>
+                        <td>Game Designer</td>
+                    </tr>
+
+                    <tr>
+                        <td>Mateusz Lipiński</td>
+                        <td>Programmer</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wiktor Sadowski</td>
+                        <td>Audio Designer</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wiktor Woźny</td>
+                        <td>Audio Designer</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="my-role">
+                <h4>My Role in Project</h4>
+                <p>Game Programmer & Team Leader</p>
+            </div>
+
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Technologies Used
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="tech-stack">
+            <ul class="tech-list">
+                <li>Unity</li>
+                <li>FMOD</li>
+                <li>Inky</li>
+            </ul>
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Codebase
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="repo-card">
+            <div class="repo-title">Astatinum</div>
+
+            <p class="repo-desc">
+                Source code for gameplay systems, dialogue, and FMOD integration.
+            </p>
+
+            <div class="repo-actions">
+                <a href="https://github.com/StrongBoat-studio/Astatinum" target="_blank">
+                    View on GitHub →
+                </a>
+            </div>
+        </div>
+
+        <!-- CODE SNIPPET -->
+         <!--
+        <div class="code-block">
+            <div class="code-title">Example: Player Interaction System</div>
+
+            <pre><code>
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    InteractWithObject();
+                }
+            </code></pre>
+        </div> -->
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Development Notes
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="repo-ps">
+
+            <div class="ps-block">
+                <h4>Project Challenges</h4>
+
+                <p class="ps-intro">
+                    This was our first large-scale team project combining programming, art, and narrative design.
+                    We decided to create a story-driven game, which required building not only gameplay systems,
+                    but also the entire narrative structure from scratch.
+                </p>
+
+                <ul>
+                    <li>
+                        Designing and integrating a dialogue system that could properly fit into gameplay flow.
+                    </li>
+
+                    <li>
+                        Synchronizing FMOD audio events with animation states in a consistent way.
+                    </li>
+
+                    <li>
+                        Managing a 10-person team as a first-time team leader, including task distribution and progress tracking.
+                    </li>
+
+                    <li>
+                        Learning how to structure a game architecture without prior experience, mainly through tutorials and peer learning.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ps-block">
+                <h4>How We Solved It</h4>
+
+                <p class="ps-intro">
+                    We approached the project iteratively, learning and improving the structure step by step as the production progressed.
+                </p>
+
+                <ul>
+                    <li>
+                        Built a modular dialogue system using Ink for better scalability and integration.
+                    </li>
+
+                    <li>
+                        Implemented event-based communication between Animator and FMOD systems.
+                    </li>
+
+                    <li>
+                        Introduced Trello as the main project management tool to organize tasks and responsibilities across the team.
+                    </li>
+
+                    <li>
+                        Developed architecture collaboratively through experimentation, tutorials, and shared learning.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ps-block">
+                <h4>What I would do differently</h4>
+                <p>
+                    With the experience I have now, I would choose a less complex first project in scope,
+                    especially for a team of this size. The ambition of the project was high, which made
+                    the production process more challenging than expected.
+                </p>
+                <p>
+                    However, in hindsight, this "too ambitious" approach turned out to be extremely valuable.
+                    It forced us to learn quickly, solve real production problems under pressure, and develop
+                    both technical and organizational skills in a very short time.
+                </p>
+            </div>
+
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Gameplay Video
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="video-container">
+            <iframe
+                width="100%"
+                height="420"
+                src="https://www.youtube.com/embed/MHqaHeWEAPk"
+                title="Gameplay Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Gallery
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="gallery">
+            <img src="res/a1.png" alt="Astatinum screenshot">
+            <img src="res/a2.png" alt="Astatinum screenshot">
+            <img src="res/a3.png" alt="Astatinum screenshot">
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Download
+            <span class="arrow">▾</span>
+        </summary>
+
+        <a href="https://drive.google.com/file/d/1-FaSu86VMwEBVZdWUn0y7iXCLHq8kgdB/view?usp=sharing"
+        class="download-btn" target="_blank">
+            ⬇ Download Build (Google Drive)
         </a>
-    </div>
-
-    <h2>Gallery</h2>
-
-    <div class="gallery">
-
-        <img src="res/a1.png" alt="Astatinum screenshot">
-        <img src="res/a2.png" alt="Astatinum screenshot">
-        <img src="res/a3.png" alt="Astatinum screenshot">
-
-    </div>
-
-    <h2>Download</h2>
-
-    <a href=https://drive.google.com/file/d/1-FaSu86VMwEBVZdWUn0y7iXCLHq8kgdB/view?usp=sharing" class="download-btn" target="_blank">
-        ⬇ Download Build (Google Drive)
-    </a>
+    </details>
 </section>
 
 </body>
