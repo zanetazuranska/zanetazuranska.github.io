@@ -6,6 +6,17 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
+<script>
+document.getElementById("toTop").addEventListener("click", function(e) {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+</script>
+
 <body>
 
 <nav class="navbar">
@@ -429,6 +440,18 @@
 
     </details>
 </section>
+
+<div class="bottom-navigation">
+    
+    <a href="projects.html" class="nav-btn">
+        ← Back to Projects
+    </a>
+
+    <a href="#" class="nav-btn" id="toTop">
+        ↑ Back to Top
+    </a>
+
+</div>
 
 </body>
 </html>
