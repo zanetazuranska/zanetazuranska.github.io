@@ -1042,6 +1042,13 @@ opacity:.8;
     margin-top: 20px;
 }
 
+.repo-ps1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
 .repo-ps .ps-block:last-child {
     grid-column: 1 / -1;
 }
@@ -1056,6 +1063,12 @@ opacity:.8;
 }
 
 .ps-block h4 {
+    margin: 0 0 10px 0;
+    color: #b16cff;
+    font-size: 14px;
+}
+
+.video-container p {
     margin: 0 0 10px 0;
     color: #b16cff;
     font-size: 14px;
@@ -1241,4 +1254,12 @@ opacity:.8;
     transform: translateY(-3px);
     border-color: #b16cff;
     box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.team-logos {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 60px; 
+    flex-wrap: wrap;
 }
