@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <title>Projects - Zaneta Zuranska</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
+<script>
+document.getElementById("toTop").addEventListener("click", function(e) {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+</script>
+
 <body>
 
 <nav class="navbar">
@@ -189,27 +201,6 @@
                 </div>
 
             </div>
-
-        </div>
-
-        <div class="role-section">
-
-            <h2>Project Context</h2>
-
-            <p>
-                Kahun is an original game developed on our own custom 3D engine
-                written in <strong>C++</strong> using <strong>OpenGL</strong>.
-                The project combines engine development with gameplay production,
-                allowing us to design both low-level technology and game systems in
-                parallel.
-            </p>
-
-            <p>
-                Working on both the engine and the game at the same time required
-                close collaboration between programmers and artists, with a strong
-                focus on creating reusable engine systems that could directly support
-                gameplay features.
-            </p>
 
         </div>
 
@@ -594,6 +585,20 @@
         </div>
     </details>
 </section>
+
+<div class="bottom-navigation">
+    
+    <a href="projects.html" class="nav-btn">
+        ← Back to Projects
+    </a>
+    
+
+    <a href="#" class="nav-btn" id="toTop">
+        ↑ Back to Top
+    </a>
+
+</div>
+
 
 </body>
 </html>

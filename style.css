@@ -133,8 +133,7 @@ body {
 }
 
 .contact-btn:hover{
-    transform:translateY(-3px);
-    background:#9d74ff;
+    transform: translateY(-3px);
 }
 
 .navbar ul {
@@ -151,6 +150,10 @@ body {
 
 .navbar a:hover {
     color: #b16cff;
+}
+
+.navbar a.contact-btn:hover {
+    color:#fff;
 }
 
 /* HERO */
