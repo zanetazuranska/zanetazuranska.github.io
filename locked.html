@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <title>Projects - Zaneta Zuranska</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
+<script>
+document.getElementById("toTop").addEventListener("click", function(e) {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+</script>
+
 <body>
 
 <nav class="navbar">
@@ -51,85 +63,465 @@
 <!-- ===== PROJECT ===== -->
 <section class="project-page">
 
-    <h1>Locked in Darkness</h1>
+    <h1>Locked in Darknes</h1>
 
-    <div class="galleryTop">
+    <div class="hero-project">
 
-        <img src="res/locked.png" alt="Mario screenshot">
+        <div class="hero-image">
+            <img src="res/locked.png" alt="Astatinum screenshot">
+        </div>
 
-    </div>
+        <div class="hero-info">
+            <p>
+                Locked in Darkness is a cooperative puzzle game where two players take on the role of kidnapped friends trying to escape from a mysterious location.
+                The game focuses on teamwork, communication, and solving interconnected puzzles under pressure.
+            </p>
 
-    <p>
-        Locked in Darkness is a cooperative puzzle game where two players take on the role of kidnapped friends trying to escape from a mysterious location.
-        The game focuses on teamwork, communication, and solving interconnected puzzles under pressure.
-    </p>
-
-    <p>
-        Players must work together to uncover clues, interact with the environment, and coordinate their actions in order to progress.
-        Each mechanic is designed to reinforce cooperation and shared problem-solving.
-    </p>
-
-    <h2>Project Context</h2>
-
-    <p>
-        The project was developed as part of the Girls in Game initiative, in collaboration with CD PROJEKT RED and under the mentorship of Przemysław Machniewski.
-        It provided hands-on experience in multiplayer systems and real-time synchronization in game development.
-    </p>
-
-    <h2>My Role in the Project</h2>
-
-    <p>
-        I focused primarily on multiplayer architecture and gameplay systems, ensuring stable synchronization and smooth cooperative gameplay.
-    </p>
-
-    <ul>
-        <li>Multiplayer implementation in Unity using Netcode</li>
-        <li>System architecture design</li>
-        <li>State machine implementation</li>
-        <li>Inventory system</li>
-        <li>Interaction system</li>
-        <li>Puzzle system structure</li>
-        <li>Player movement</li>
-        <li>Two-player synchronization</li>
-        <li>Data validation</li>
-    </ul>
-
-    <p>
-        Additionally, I contributed to creating a visually cohesive and immersive scene to support the game’s atmosphere.
-    </p>
-
-    <h2>Technologies Used</h2>
-
-    <div class="tech-stack">
-        <span class="tech">Unity</span>
-        <span class="tech">Netcode for GameObjects</span>
-        <span class="tech">C#</span>
-    </div>
-
-    <h2>Link to repository</h2>    
-    <a href="https://github.com/zanetazuranska/EscapeRoom" class="download-btn" target="_blank">
-        ⬇ View Repository (GitHub)
-    </a>
-
-    <div class="gallery">
-
-        <img src="res/l1.png" alt="Astatinum screenshot">
-        <img src="res/l2.png" alt="Astatinum screenshot">
-        <img src="res/l3.png" alt="Astatinum screenshot">
+            <p>
+                Players must work together to uncover clues, interact with the environment, and coordinate their actions in order to progress.
+                Each mechanic is designed to reinforce cooperation and shared problem-solving.
+            </p>
+        </div>
 
     </div>
 
-    <h2>Project Links</h2>
+    <details class="section-box" open>
+        <summary>
+            Project Collaboration
+            <span class="arrow">▾</span>
+        </summary>
 
-    <a href="https://drive.google.com/file/d/1zvUTdpnq0KvNB9wKO0cOygOq2pQ2600q/view?usp=drive_link" class="download-btn" target="_blank">
-        ⬇ Download Project (Google Drive)
-    </a>
+        <div class="team-section">
 
-    <a href="https://drive.google.com/file/d/10GjjNYyV9D9qXOAOAUaQq1unDpJaAijx/view?usp=drive_link" class="download-btn" target="_blank">
-        ▶ Watch Trailer
-    </a>
+            <div class="team-logos">
+
+                <div class="team-logo-wrapper">
+                    <img src="res/CDPR_Logo-Horizontal-White_RGB.png"
+                        class="team-logo"
+                        alt="CD PROJEKT RED Logo">
+                </div>
+
+                <div class="team-logo-wrapper">
+                    <img src="res/DwG_Logo_black_RGB.png"
+                        class="team-logo"
+                        alt="Girls in Games Logo">
+                </div>
+
+            </div>
+
+            <div class="team-table">
+
+                <h4>Project Overview</h4>
+
+                <p>
+                    This project was developed as part of the <strong>Girls in Games</strong> initiative,
+                    in collaboration with <strong>CD PROJEKT RED</strong> and under the mentorship of
+                    <strong>Przemysław Machniewski</strong>.
+                </p>
+
+                <p>
+                    The primary objective was to explore multiplayer game development, focusing on
+                    real-time synchronization, networking architecture, and cooperative gameplay using Unity Netcode.
+                </p>
+
+            </div>
+
+            <div class="my-role">
+                <h4>My Role</h4>
+                <p>Gameplay & Multiplayer Programmer</p>
+            </div>
+
+        </div>
+    </details>
+
+    <details class="section-box" open>
+        <summary>
+            Responsibilities
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="repo-ps1">
+
+            <div class="ps-block">
+                <h4>Gameplay & Networking</h4>
+
+                <p class="ps-intro">
+                    My primary responsibility was implementing multiplayer gameplay systems while ensuring
+                    stable synchronization between two players.
+                </p>
+
+                <ul>
+                    <li>Multiplayer implementation using Unity Netcode</li>
+                    <li>Two-player synchronization</li>
+                    <li>Player movement</li>
+                    <li>Data validation</li>
+                    <li>State machine implementation</li>
+                </ul>
+            </div>
+
+            <div class="ps-block">
+                <h4>Game Systems</h4>
+
+                <p class="ps-intro">
+                    In addition to networking, I designed several gameplay systems that formed the foundation
+                    of the cooperative experience.
+                </p>
+
+                <ul>
+                    <li>System architecture design</li>
+                    <li>Inventory system</li>
+                    <li>Interaction system</li>
+                    <li>Puzzle system structure</li>
+                    <li>Support for environmental scene creation</li>
+                </ul>
+            </div>
+
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Technologies Used
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="tech-stack">
+            <ul class="tech-list">
+                <li>Unity</li>
+                <li>Netcode for GameObjects</li>
+                <li>C#</li>
+            </ul>
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Codebase
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="repo-card">
+            <div class="repo-title">Locked in Darknes</div>
+
+            <p class="repo-desc">
+                Source code for the multiplayer gameplay systems, networking architecture, player interactions, and cooperative mechanics developed for Locked in Darkness.
+            </p>
+
+            <div class="repo-actions">
+                <a href="https://github.com/zanetazuranska/EscapeRoom" target="_blank">
+                    View on GitHub →
+                </a>
+            </div>
+        </div>
+
+        <!-- CODE SNIPPET -->
+        <div class="code-block">
+            <div class="code-title">Where the most interesting code is located?</div>
+
+            <pre><code>
+                Assets/_Game/Scripts/Networking
+                Assets/_Game/Scripts/Riddles
+                Assets/_Game/Scripts/Game Architecture
+            </code></pre>
+
+            <p class="code-note">
+                Please switch to the <strong>Riddles</strong> branch (or the appropriate feature branch) to see the latest implementation.
+            </p>
+        </div> 
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Development Notes
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="repo-ps">
+
+            <div class="ps-block">
+                <h4>Project Challenges</h4>
+
+                <p class="ps-intro">
+                    Developing a cooperative multiplayer game introduced a completely different set of technical challenges compared to my previous projects.
+                    The focus shifted from standalone gameplay systems to scalable architecture, networking, and synchronization between multiple players.
+                </p>
+
+                <ul>
+                    <li>
+                        Designing a clean and scalable project architecture capable of supporting multiplayer gameplay while keeping systems modular and easy to maintain.
+                    </li>
+
+                    <li>
+                        Separating puzzle logic from presentation, ensuring that gameplay rules remained independent from the user interface and visual representation.
+                    </li>
+
+                    <li>
+                        Learning Unity Netcode and implementing reliable synchronization of player actions, object states, and interactions across the network.
+                    </li>
+
+                    <li>
+                        Handling ownership and data validation to prevent inconsistent game states between connected players.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ps-block">
+                <h4>How We Solved It</h4>
+
+                <p class="ps-intro">
+                    We invested significant time in planning the project's architecture before implementing gameplay systems.
+                    This allowed us to build features on top of a solid foundation while keeping the codebase modular and easier to extend.
+                </p>
+
+                <ul>
+                    <li>
+                        We designed architecture that clearly separated scene management, game controllers, and networking responsibilities, creating a scalable foundation for the project.
+                    </li>
+
+                    <li>
+                        Puzzle systems were built using Scriptable Objects, separating puzzle data from gameplay logic and UI. This made individual puzzles reusable, easier to maintain, and independent of their visual implementation.
+                    </li>
+
+                    <li>
+                        Multiplayer functionality was implemented using Unity Netcode, with synchronized player movement, interactions and object states across connected clients.
+                    </li>
+
+                    <li>
+                        Continuous testing helped identify synchronization issues early and improve the overall stability of the networking systems.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ps-block">
+                <h4>What I Would Do Differently</h4>
+
+                <p>
+                    Looking back, I would spend even more time defining the networking architecture before implementing gameplay systems.
+                    Although the overall architecture worked well, several gameplay features required additional adjustments once multiplayer synchronization was introduced.
+                </p>
+
+                <p>
+                    This project significantly improved my understanding of multiplayer programming, software architecture, and designing systems that remain maintainable as complexity grows.
+                    It also showed me how important it is to separate gameplay logic, networking, and presentation from the very beginning of development.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="video-container">
+            <p class="ps-intro">
+                <strong>Curious how Locked in Darkness was created?</strong> The video below documents the development process, from the first prototype to the final playable version.
+            </p>
+
+            <iframe
+                width="100%"
+                height="420"
+                src="https://www.youtube.com/embed/hK0p058MY54"
+                title="Locked in Darkness Development Process"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Gameplay Video
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="video-container">
+            <iframe
+                width="100%"
+                height="420"
+                src="https://www.youtube.com/embed/0hFiUHXNdf8"
+                title="Gameplay Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Gallery
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="gallery">
+            <img src="res/l1.png" alt="Astatinum screenshot">
+            <img src="res/l2.png" alt="Astatinum screenshot">
+            <img src="res/l3.png" alt="Astatinum screenshot">
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Download
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="download-card">
+
+            <div class="download-title">
+                Play Locked in Darknes
+            </div>
+
+            <p class="download-desc">
+                Download the latest playable Windows build of the project.
+            </p>
+
+            <div class="download-info">
+                <span>Platform: Windows</span>
+                <span>Distribution: Google Drive</span>
+            </div>
+
+            <div class="repo-actions">
+                <a href="https://drive.google.com/file/d/1zvUTdpnq0KvNB9wKO0cOygOq2pQ2600q/view?usp=drive_link"
+                target="_blank">
+                    Download Build →
+                </a>
+            </div>
+
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Events & Showcases
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="events">
+
+            <div class="event-card">
+
+                <div class="event-header">
+                    <div>
+                        <h3>CD PROJEKT RED Visits & Workshops</h3>
+                        <span class="event-date">
+                            2023
+                        </span>
+                    </div>
+                </div>
+
+                <p class="event-description">
+                    The collaboration with CD PROJEKT RED included a series of visits and workshops that supported the development of our project from its early stage.
+                    The first meeting marked the official start of the project, followed by regular sessions focused on both technical and soft skills development.
+                </p>
+
+                <p class="event-description">
+                    Each workshop covered different aspects of game development, including production pipelines, teamwork, communication, and design practices,
+                    helping us better understand how professional game studios operate in a real production environment.
+                </p>
+
+                <div class="event-media">
+
+                    <img src="res/cdp1.jpg" alt="">
+                    <img src="res/cdp2.jpg" alt="">
+                    <img src="res/cdp3.jpg" alt="">
+                    <img src="res/cdp4.jpg" alt="">
+                    <img src="res/cdp5.jpg" alt="">
+                    <img src="res/cdp6.jpg" alt="">
+                    <img src="res/cdp7.jpg" alt="">
+                    <img src="res/cdp8.jpg" alt="">
+
+                </div>
+
+            </div>
+
+            <!-- EVENT -->
+            <div class="event-card">
+
+                <div class="event-header">
+                    <div>
+                        <h3>Women in Tech Summit</h3>
+                        <span class="event-date">
+                            2023
+                        </span>
+                    </div>
+                </div>
+
+                <p class="event-description">
+                    I had the opportunity to participate in the Women in Tech Summit, which featured a wide range of talks and workshops led by industry professionals.
+                    It was one of my first large international events in English, making it both a professional and personal challenge.
+                </p>
+
+                <p class="event-description">
+                    The experience helped me improve my communication skills in an international environment while gaining insight into different areas of technology and game development.
+                </p>
+
+                <div class="event-media">
+
+                    <img src="res/summit1.jpg" alt="">
+                    <img src="res/summit2.jpg" alt="">
+            
+                </div>
+
+                <div class="video-container">
+                    <iframe
+                        width="100%"
+                        height="420"
+                        src="https://www.youtube.com/embed/03fk-h7bQJ8"
+                        title="Gameplay Video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- EVENT -->
+            <div class="event-card">
+
+                <div class="event-header">
+                    <div>
+                        <h3>Promised Land Festival</h3>
+                        <span class="event-date">
+                            2023
+                        </span>
+                    </div>
+                </div>
+
+                <p class="event-description">
+                    I participated in the Promised Land Festival, where I attended a series of talks and workshops focused on game development and the creative industry.
+                    The event brought together professionals from different fields, providing valuable insight into industry practices.
+                </p>
+
+                <p class="event-description">
+                    It was also an opportunity to further develop my soft skills and gain a broader perspective on working in the game development industry.
+                </p>
+
+                <div class="event-media">
+
+                    <img src="res/plaf1.jpg" alt="">
+                    <img src="res/plaf2.jpg" alt="">
+                    <img src="res/plaf3.jpg" alt="">
+                    
+            
+                </div>
+
+            </div>
+        </div>
+
+    </details>
 
 </section>
+
+<div class="bottom-navigation">
+    
+    <a href="projects.html" class="nav-btn">
+        ← Back to Projects
+    </a>
+
+    <a href="#" class="nav-btn" id="toTop">
+        ↑ Back to Top
+    </a>
+
+</div>
 
 </body>
 </html>
