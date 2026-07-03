@@ -1279,3 +1279,30 @@ opacity:.8;
     gap: 60px; 
     flex-wrap: wrap;
 }
+
+.architecture-gallery{
+    margin-top:25px;
+    margin-bottom:40px;
+}
+
+.architecture-item{
+    margin-bottom:40px;
+}
+
+.architecture-item h4{
+    margin-bottom:15px;
+}
+
+.architecture-item img{
+    width:100%;
+    max-width:1100px;
+    display:block;
+    margin:0 auto;
+    border-radius:12px;
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.architecture-title{
+    margin-top:40px;
+    margin-bottom:10px;
+}
