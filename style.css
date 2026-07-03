@@ -1176,12 +1176,28 @@ opacity:.8;
     transition:.25s;
 }
 
+.event-media2 img{
+    width:100%;
+    object-fit:cover;
+    border-radius:10px;
+    border:1px solid rgba(255,255,255,.06);
+    transition:.25s;
+}
+
 .event-media img:hover{
 
     transform:translateY(-4px);
 
     border-color:#b16cff;
 }
+
+.event-media2 img:hover{
+
+    transform:translateY(-4px);
+
+    border-color:#b16cff;
+}
+
 
 .event-video{
     margin:20px 0;

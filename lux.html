@@ -4,7 +4,20 @@
     <meta charset="UTF-8">
     <title>Projects - Zaneta Zuranska</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
+<script>
+document.getElementById("toTop").addEventListener("click", function(e) {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+</script>
+
+
 <body>
 
 <nav class="navbar">
@@ -53,167 +66,491 @@
 
     <h1>Lux & Morte</h1>
 
-    <div class="galleryTop">
+    <div class="hero-project">
 
-        <img src="res/lux.png" alt="Mario screenshot">
+        <div class="hero-image">
+            <img src="res/lux.png" alt="Astatinum screenshot">
+        </div>
 
-    </div>
+        <div class="hero-info">
+            <p>
+                Lux & Morte is a fast-paced, asymmetrical multiplayer party game set in a colorful, symbolic vision of the afterlife.
+                Inspired by Día de los Muertos aesthetics, the game blends vibrant visuals with competitive gameplay focused on local multiplayer interaction.
+            </p>
 
-    <p>
-        Lux & Morte is a fast-paced, asymmetrical multiplayer party game set in a colorful, symbolic vision of the afterlife.
-        Inspired by Día de los Muertos aesthetics, the game blends vibrant visuals with competitive gameplay focused on local multiplayer interaction.
-    </p>
+            <p>
+                Two players take on opposing roles: one controls the Light, navigating a dangerous maze in an attempt to survive,
+                while the other commands a horde of hostile skulls, trying to capture the Light player.
+                The gameplay is designed around tension, quick decision-making, and direct player competition.
+            </p>
 
-    <p>
-        Two players take on opposing roles: one controls the Light, navigating a dangerous maze in an attempt to survive,
-        while the other commands a horde of hostile skulls, trying to capture the Light player.
-        The gameplay is designed around tension, quick decision-making, and direct player competition.
-    </p>
-
-    <p>
-        During development, the project was regularly reviewed during industry evaluation sessions,
-        where it was consulted with professionals and received consistently positive feedback.
-        This iterative process helped refine gameplay mechanics and improve the overall player experience.
-    </p>
-
-    <h2>Gameplay Features</h2>
-
-    <ul>
-        <li>Asymmetrical two-player gameplay</li>
-        <li>Dynamic chase mechanics</li>
-        <li>Controller-based interaction</li>
-        <li>Fast-paced, arcade-style design</li>
-        <li>Distinct visual style inspired by Día de los Muertos</li>
-    </ul>
-
-    <h2>Gamepad Support</h2>
-
-    <p>
-        The game is designed for local multiplayer using controllers.
-        Two gamepads are required for the full experience, with intuitive controls and on-screen guidance for each player.
-    </p>
-
-    <h2>Link to repository</h2>    
-    <a href="https://github.com/Conflict-Eater-Studio/Conflict-Eater" class="download-btn" target="_blank">
-        ⬇ View Repository (GitHub)
-    </a>
-
-    <h2>Link to itch.io</h2>    
-    <a href="https://nookstudios.itch.io/lux-morte" class="download-btn" target="_blank">
-        ⬇ View itch.io
-    </a>
-
-    <div class="gallery">
-
-        <img src="res/b1.png" alt="Astatinum screenshot">
-        <img src="res/b2.png" alt="Astatinum screenshot">
-        <img src="res/b3.jpg" alt="Astatinum screenshot">
+            <p>
+                During development, the project was regularly reviewed during industry evaluation sessions,
+                where it was consulted with professionals and received consistently positive feedback.
+                This iterative process helped refine gameplay mechanics and improve the overall player experience.
+            </p>
+        </div>
 
     </div>
 
-    <h2>Technologies Used</h2>
+    <details class="section-box" open>
+        <summary>
+            Team
+            <span class="arrow">▾</span>
+        </summary>
 
-    <div class="tech-stack">
-        <span class="tech">Unity</span>
-        <span class="tech">FMOD</span>
-        <span class="tech">C#</span>
-    </div>
+        <div class="team-section">
+            <div class="team-logo-wrapper">
+                <img src="res/logo.png" class="team-logo" alt="Strong Boat Studio Logo">
+            </div>
 
-    <h2>Project Context</h2>
+            <div class="team-table">
 
-    <p>
-        The project was developed as part of the course "Fundamentals of Computer Games" at the Lodz University of Technology.
-        It was created in a team environment, focusing on delivering a complete and playable multiplayer experience.
-    </p>
+                <h4>Team Members</h4>
 
-    <p>
-        Special thanks for knowledge sharing and mentorship: Aneta Wiśniewska, Rafał Szrajber.
-    </p>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                    </tr>
 
-    <h2>Team Members</h2>
+                    <tr>
+                        <td>Żaneta Żurańska</td>
+                        <td>Team Lead, Programmer</td>
+                    </tr>
 
-    <ul>
-        <li><strong>Żaneta Żurańska</strong> – Team Lead, Programmer</li>
-        <li><strong>Mateusz Lipiński</strong> – Programmer</li>
-        <li><strong>Damian Jasek</strong> – Programmer</li>
-        <li><strong>Igor Skwarczyński</strong> – Artist</li>
-        <li><strong>Konrad Kuberski</strong> – Artist</li>
-    </ul>
+                    <tr>
+                        <td>Mateusz Lipiński</td>
+                        <td>Programmer</td>
+                    </tr>
 
-    <h2>My Role</h2>
+                    <tr>
+                        <td>Damian Jasek</td>
+                        <td>Programmer</td>
+                    </tr>
 
-<p>
-    In this project, I worked as both a Team Lead and Gameplay Programmer.
-    As a leader, I was responsible for task distribution, team coordination, and overall development organization,
-    ensuring smooth communication and a consistent workflow across the team.
-</p>
+                    <tr>
+                        <td>Igor Skwarczyński</td>
+                        <td>Artist</td>
+                    </tr>
 
-<p>
-    On the programming side, I focused primarily on core gameplay systems and technical implementation, including:
-</p>
+                    <tr>
+                        <td>Konrad Kuberski</td>
+                        <td>Artist</td>
+                    </tr>
+                </table>
 
-<ul>
-    <li>AI system for skull enemies</li>
-    <li>Player controller foundation and input handling</li>
-    <li>Map randomization system</li>
-    <li>Project lifecycle management (repository maintenance and integration of changes)</li>
-    <li>Optimization and performance improvements</li>
-    <li>Visibility and systems for player readability</li>
-    <li>General bug fixing and gameplay polish</li>
-</ul>
+            </div>
 
-<p>
-    This role required both technical problem-solving and high-level coordination to ensure the project was delivered in a playable and polished state.
-</p>
+            <div class="role-section">
 
-<h2>Events & Showcases</h2>
+                <h2>My Role in the Project</h2>
 
-<div class="event">
+                <p>
+                    I served as both <strong>Team Leader</strong> and <strong>Gameplay Programmer</strong>,
+                    taking responsibility for key gameplay systems while coordinating development,
+                    maintaining the repository, and integrating the team's work throughout production.
+                </p>
 
-    <h3>Bit Boat Festival</h3>
+                <div class="role-block">
+                    <h3>Gameplay Programming</h3>
 
-    <p>
-        The game was presented during Bit Boat Festival in a live showcase environment.
-        Players had the opportunity to test the game, compete against each other, and experience its mechanics in a real event setting.
-    </p>
+                    <ul>
+                        <li>Ghost AI based on the classic Pac-Man behavior algorithm</li>
+                        <li>Level design and gameplay balancing</li>
+                        <li>Level selection system</li>
+                        <li>Ghost UI</li>
+                        <li>Intro cutscene implementation</li>
+                    </ul>
+                </div>
 
-    <p>
-        We also organized a tournament with sponsored prizes, which significantly increased player engagement and allowed us to observe real user behavior and feedback.
-    </p>
+                <div class="role-block">
+                    <h3>Team Leadership</h3>
 
-    <!-- GALLERY -->
-    <div class="gallery">
-        <img src="res/bitboat1.jpg" alt="Bit Boat Festival showcase">
-        <img src="res/bitboat2.jpg" alt="Players testing the game">
-        <img src="res/bitboat3.jpg" alt="Tournament at Bit Boat Festival">
-        <img src="res/bitboat4.jpg" alt="Bit Boat Festival showcase">
-        <img src="res/bitboat5.jpg" alt="Players testing the game">
-        <img src="res/bitboat6.jpg" alt="Tournament at Bit Boat Festival">
-    </div>
+                    <ul>
+                        <li>Project planning and task coordination</li>
+                        <li>Repository management and Git workflow</li>
+                        <li>Resolving merge conflicts and integrating team features</li>
+                        <li>Maintaining project stability throughout development</li>
+                    </ul>
+                </div>
 
-</div>
+            </div>
 
-<div class="event">
+        </div>
 
-    <h3>Game Access 2026</h3>
+        <div class="role-section">
 
-    <p>
-        The project will be showcased at Game Access 2026, where it will be presented to a broader audience,
-        including players and industry professionals.
-    </p>
+            <h2>Project Context</h2>
 
-    <p>
-        This event provides an opportunity to gather valuable feedback and further validate the gameplay experience in a professional environment.
-    </p>
+            <p>
+                The project was developed as part of the course <strong>"Fundamentals of Computer Games"</strong>
+                at the Lodz University of Technology. It was created in a team environment, focusing on delivering
+                a complete and playable multiplayer experience.
+            </p>
 
-    <a href="https://game-access.com/conference/indie-showcase/lux-morte/" target="_blank" class="event-link">
-    🔗 Visit Game Access website
-</a>
+            <p>
+                Special thanks for knowledge sharing and mentorship go to
+                <strong>Aneta Wiśniewska</strong> and <strong>Rafał Szrajber</strong>, whose guidance
+                significantly supported both the technical and design aspects of the project.
+            </p>
 
-</div>
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Technologies Used
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="tech-stack">
+            <ul class="tech-list">
+                <li>C#</li>
+                <li>Unity</li>
+                <li>FMOD</li>
+            </ul>
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Codebase
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="repo-card">
+            <div class="repo-title">Lux & Morte</div>
+
+            <p class="repo-desc">
+                Source code for Lux and Morte, including multiplayer gameplay systems, ghost AI, level selection, UI, cutscenes, and core game logic built in Unity.
+            </p>
+
+            <div class="repo-actions">
+                <a href="https://github.com/Conflict-Eater-Studio/Conflict-Eater" target="_blank">
+                    View on GitHub →
+                </a>
+            </div>
+        </div>
+
+        <!-- CODE SNIPPET -->
+        <div class="code-block">
+            <div class="code-title">Where the most interesting code is located?</div>
+
+            <pre><code>
+                Assets/_Game/Scripts/Shadow
+                Assets/_Game/Scripts/UI/ShadowSwitch
+            </code></pre>
+        </div> 
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Development Notes
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="repo-ps">
+
+            <div class="ps-block">
+                <h4>Project Challenges</h4>
+
+                <p class="ps-intro">
+                    Developing Lux and Morte introduced several design and technical challenges, primarily due to its asymmetric gameplay structure and real-time multiplayer elements.
+                    A key focus of the project was ensuring that both player roles remained balanced and engaging throughout the entire experience.
+                </p>
+
+                <ul>
+                    <li>
+                        Balancing asymmetric gameplay between different player roles (ghosts vs. opposing side), where each had unique abilities and interaction rules.
+                    </li>
+
+                    <li>
+                        Iterative balancing through repeated playtesting sessions with industry professionals and external testers, followed by continuous feedback implementation.
+                    </li>
+
+                    <li>
+                        Designing flexible switching and interaction systems between different ghost to ensure fair and readable gameplay.
+                    </li>
+
+                    <li>
+                        Optimizing Unity Tilemap performance after encountering significant FPS drops.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ps-block">
+                <h4>How We Solved It</h4>
+
+                <p class="ps-intro">
+                    The project was refined through continuous iteration, external playtests, and rapid implementation of feedback gathered during showcase events and industry sessions.
+                </p>
+
+                <ul>
+                    <li>
+                        We conducted multiple playtests with industry professionals, using their feedback to adjust movement speed, abilities, and overall pacing of asymmetric gameplay.
+                    </li>
+
+                    <li>
+                        Implemented multiple balancing approaches for ghost switching mechanics, allowing smoother transitions and better control over player roles.
+                    </li>
+
+                    <li>
+                        Optimized level performance by reducing Tilemap complexity.
+                    </li>
+
+                    <li>
+                        Continuously refined gameplay feel based on real-world demo feedback gathered during events and competitions.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ps-block">
+                <h4>What I Would Do Differently</h4>
+
+                <p>
+                    Looking back, it is difficult to identify a single major change, as the project benefited heavily from its iterative nature and external feedback cycle.
+                    The ability to showcase the game at multiple industry events significantly shaped its final direction.
+                </p>
+
+                <p>
+                    If anything, I would introduce performance testing and balancing earlier in development, especially for Tilemap-heavy scenes, to avoid late-stage optimization work.
+                    Overall, the project was a valuable experience in both gameplay balancing and real-world iteration under event conditions.
+                </p>
+            </div>
+
+        </div>
+
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Gameplay Video
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="video-container">
+            <iframe
+                width="100%"
+                height="420"
+                src="https://www.youtube.com/embed/LRSNvQ31-Gk"
+                title="Gameplay Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Gallery
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="gallery">
+            <img src="res/b1.png" alt="Astatinum screenshot">
+            <img src="res/b2.png" alt="Astatinum screenshot">
+            <img src="res/b3.jpg" alt="Astatinum screenshot">
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Download
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="download-card">
+
+            <div class="download-title">
+                Play Lux & Morte
+            </div>
+
+            <p class="download-desc">
+                Play the latest version of Lux & Morte directly on itch.io and experience the full multiplayer gameplay.
+            </p>
+
+            <div class="download-info">
+                <span>Platform: PC</span>
+                <span>Distribution: itch.io</span>
+                <span>~320 views</span>
+                <span>Player downloads: ~30</span>
+            </div>
+
+            <div class="repo-actions">
+                <a href="https://nookstudios.itch.io/lux-morte"
+                target="_blank">
+                    Play on itch.io →
+                </a>
+            </div>
+
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Events & Showcases
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="events">
+            <div class="event-card">
+
+                <div class="event-header">
+                    <div>
+                        <h3>University Industry Showcase – Early Playtest Sessions</h3>
+                        <span class="event-date">
+                            2025
+                        </span>
+                    </div>
+                </div>
+
+                <p class="event-description">
+                    At an early stage of development, Lux & Morte was presented during a university-organized industry showcase
+                    featuring invited professionals from the game development sector.
+                </p>
+
+                <p class="event-description">
+                    The event included representatives from studios such as CD PROJEKT RED, 11 bit studios, Cleversan Games, and Render Cube,
+                    who had the opportunity to test the project and provide early feedback on gameplay direction and design decisions.
+                </p>
+
+                <p class="event-description">
+                    This was one of the first moments where the project was exposed to external industry feedback,
+                    helping validate core mechanics and shaping further development.
+                </p>
+
+                <div class="event-media">
+                    <img src="res/e1.jpg" alt="">
+                    <img src="res/e2.jpg" alt="">
+                    <img src="res/e3.jpg" alt="">
+                    <img src="res/e4.jpg" alt="">
+                    <img src="res/e5.jpg" alt="">
+                    <img src="res/e6.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="event-card">
+
+                <div class="event-header">
+                    <div>
+                        <h3>Bit Boat Festival</h3>
+                        <span class="event-date">
+                            2026
+                        </span>
+                    </div>
+                </div>
+
+                <p class="event-description">
+                    Lux & Morte was showcased during Bit Boat Festival in a live public environment,
+                    where players could test the game and experience its asymmetric multiplayer mechanics firsthand.
+                </p>
+
+                <p class="event-description">
+                    The event included a community tournament with sponsored prizes, which significantly increased engagement
+                    and provided valuable feedback on gameplay balance and player behavior.
+                </p>
+
+                <div class="event-media">
+                    <img src="res/bitboat1.jpg" alt="">
+                    <img src="res/bitboat2.jpg" alt="">
+                    <img src="res/bitboat3.jpg" alt="">
+                    <img src="res/bitboat4.jpg" alt="">
+                    <img src="res/bitboat5.jpg" alt="">
+                    <img src="res/bitboat6.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="event-card">
+
+                <div class="event-header">
+                    <div>
+                        <h3>Game Access Conference '25</h3>
+                        <span class="event-date">
+                            Brno, Czech Republic | 2026
+                        </span>
+                    </div>
+                </div>
+
+                <p class="event-description">
+                    Lux & Morte was presented at Game Access Conference '25 in Brno, Czech Republic,
+                    which combined both a professional conference and an indie showcase environment.
+                </p>
+
+                <p class="event-description">
+                    The conference part featured talks and lectures from industry professionals, providing insight into current trends in game development,
+                    production pipelines, and design practices.
+                </p>
+
+                <p class="event-description">
+                    In parallel, the Indie Showcase allowed us to present Lux & Morte directly to players and developers,
+                    enabling hands-on testing, live feedback collection, and observation of player behavior in real-time.
+                </p>
+
+                <p class="event-description">
+                    More information about the showcase can be found here:
+                    <a href="https://26.game-access.com/conference/indie-showcase/lux-morte/" target="_blank">
+                        Lux & Morte – Game Access Indie Showcase page
+                    </a>
+                </p>
+
+                <div class="event-media">
+                    <img src="res/ga1.jpg" alt="">
+                    <img src="res/ga2.jpg" alt="">
+                    <img src="res/ga3.jpg" alt="">
+                    <img src="res/ga4.jpg" alt="">
+                    <img src="res/ga5.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="event-card">
+
+                <div class="event-header">
+                    <div>
+                        <h3>Student Games Festival (Upcoming)</h3>
+                        <span class="event-date">
+                            October 2026
+                        </span>
+                    </div>
+                </div>
+
+                <p class="event-description">
+                    Lux & Morte has been submitted to the Student Games Festival, where it is planned to be showcased in October 2025.
+                </p>
+
+                <p class="event-description">
+                    This event will serve as another opportunity to present the project to industry professionals and gather additional feedback on gameplay systems and multiplayer balance.
+                </p>
+
+                <div class="event-media2">
+                    <img src="res/logo_big.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+    </details>
 
     
 </section>
+
+<div class="bottom-navigation">
+    
+    <a href="projects.html" class="nav-btn">
+        ← Back to Projects
+    </a>
+    
+
+    <a href="#" class="nav-btn" id="toTop">
+        ↑ Back to Top
+    </a>
+
+</div>
 
 </body>
 </html>
