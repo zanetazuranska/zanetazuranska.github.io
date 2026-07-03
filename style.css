@@ -167,7 +167,7 @@ body {
 }
 
 .avatar {
-    width: 120px;
+    width: 240px;
     border-radius: 50%;
     border: 3px solid #b16cff;
     margin-bottom: 20px;
@@ -1308,4 +1308,42 @@ opacity:.8;
 .architecture-title{
     margin-top:40px;
     margin-bottom:10px;
+}
+
+.stats {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stat-item {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.moments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.moments-grid img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.06);
+
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.moments-grid img:hover {
+    transform: translateY(-6px) scale(1.02);
+    border-color: #b16cff;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
