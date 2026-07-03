@@ -60,7 +60,7 @@
 
         <div class="hero-info">
             <p>
-                Kahun is a hex-based action-adventure game inspired by Polynesian and Tiki culture,
+                Kahun is a hex-based action-adventure game inspired by Tiki culture,
                 developed entirely on our custom C++ / OpenGL game engine.
             </p>
 
@@ -341,6 +341,258 @@
         </div>
     </details>
 
+    <details class="section-box">
+        <summary>
+            Development Notes
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="repo-ps">
+
+            <div class="ps-block">
+                <h4>Project Challenges</h4>
+
+                <p class="ps-intro">
+                    Kahun was developed in an extremely short timeframe of around 4 months, during which we had to build a full game engine, editor, and a playable game simultaneously.
+                    The biggest challenge was maintaining a clear production structure and keeping development on schedule while rapidly iterating on core systems.
+                </p>
+
+                <ul>
+                    <li>
+                        Delivering a complete engine, editor, and game within ~4 months required strict planning and a very disciplined workflow.
+                        We addressed this by defining a clear production schedule and dividing work into tightly scoped milestones.
+                    </li>
+
+                    <li>
+                        First-time experience with motion capture integration, which significantly increased production complexity and required dedicated time for experimentation and setup.
+                        To manage this, we temporarily assigned a small dedicated sub-team to handle mocap workflows and integration.
+                    </li>
+
+                    <li>
+                        Performance and optimization challenges typical for custom engine development.
+                        Without an off-the-shelf framework, we had to design performance-aware systems from the ground up.
+                    </li>
+
+                    <li>
+                        Designing enemy AI that supports readable yet strategic gameplay, allowing players to plan and adapt rather than react randomly.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ps-block">
+                <h4>How We Solved It</h4>
+
+                <p class="ps-intro">
+                    The project succeeded thanks to strong scheduling discipline, iterative development, and building robust systems from the beginning rather than patching issues later.
+                </p>
+
+                <ul>
+                    <li>
+                        Strict production timeline with clearly defined milestones helped us keep scope under control and deliver engine, editor, and gameplay in parallel.
+                    </li>
+
+                    <li>
+                        Motion capture production was split between two dedicated contributors, which allowed the rest of the team to continue engine and gameplay development without disruption.
+                    </li>
+
+                    <li>
+                        Performance was addressed at the architectural level:
+                        the asset system was designed to prevent duplication, while rendering uses instancing, frustum culling, and backface culling.
+                        Collision systems rely on octree spatial partitioning, and many gameplay systems use dirty-flag optimization to avoid unnecessary updates.
+                    </li>
+
+                    <li>
+                        AI was implemented as a hybrid system combining Utility-Based AI and Behaviour Trees,
+                        allowing enemies to select actions dynamically based on game state and player behavior, creating more adaptive and strategic encounters.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ps-block">
+                <h4>What I Would Do Differently</h4>
+
+                <p>
+                    Looking back, I would place significantly more focus on visual quality, readability, and polish earlier in production.
+                    In the final stage of the project, time constraints limited how much we could refine presentation and clarity.
+                </p>
+
+                <p>
+                    Despite that, Kahun was an extremely valuable experience that combined engine development, tool creation, and gameplay design in a single production.
+                    It strongly improved my understanding of full pipeline game development and large-scale system architecture.
+                </p>
+            </div>
+
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Gameplay Video & Trailer
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="video-container">
+
+            <p class="ps-intro">
+                <strong>Gameplay & Trailer Showcase</strong><br>
+                The videos below present both gameplay footage and the official trailer for Kahun.
+                They showcase the core gameplay loop, combat system, exploration mechanics, and the overall visual direction of the game,
+                as well as the final presentation used during showcases and events.
+            </p>
+
+            <iframe
+                width="100%"
+                height="420"
+                src="https://www.youtube.com/embed/ulG1VPrCdd4"
+                title="Kahun Gameplay Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+            <div style="height:20px;"></div>
+
+            <iframe
+                width="100%"
+                height="420"
+                src="https://www.youtube.com/embed/m7iAM8eTui8"
+                title="Kahun Official Trailer"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Gallery
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="gallery">
+            <img src="res/k1.png" alt="Astatinum screenshot">
+            <img src="res/k2.png" alt="Astatinum screenshot">
+            <img src="res/k3.png" alt="Astatinum screenshot">
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Download
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="download-card">
+
+            <div class="download-title">
+                Play Kahun
+            </div>
+
+            <p class="download-desc">
+                Play the latest available version of Kahun on itch.io and experience the game built on our custom C++ / OpenGL engine.
+            </p>
+
+            <div class="download-info">
+                <span>Platform: PC</span>
+                <span>Distribution: itch.io</span>
+            </div>
+
+            <div class="repo-actions">
+                <a href="https://nookstudios.itch.io/kahun"
+                target="_blank">
+                    Play on itch.io →
+                </a>
+            </div>
+
+        </div>
+    </details>
+
+    <details class="section-box">
+        <summary>
+            Events & Showcases
+            <span class="arrow">▾</span>
+        </summary>
+
+        <div class="events">
+
+            <!-- EVENT 1 -->
+            <div class="event-card">
+
+                <div class="event-header">
+                    <div>
+                        <h3>Prototype Showcase & Public Playtests</h3>
+                        <span class="event-date">
+                            Early Development
+                        </span>
+                    </div>
+                </div>
+
+                <p class="event-description">
+                    At an early prototyping stage, Kahun was presented to external players to validate the core gameplay loop
+                    and test whether the main mechanics were fun, readable, and engaging.
+                </p>
+
+                <p class="event-description">
+                    These sessions focused on gathering direct player feedback on movement, combat feel, and exploration,
+                    helping us identify issues early and iterate on the core design.
+                </p>
+
+                <p class="event-description">
+                    The feedback from these playtests had a major impact on shaping the final direction of the game.
+                </p>
+
+                <div class="event-media">
+                    <img src="res/p1.jpg" alt="">
+                    <img src="res/p2.jpg" alt="">
+                    <img src="res/p3.jpg" alt="">
+                    <img src="res/p4.jpg" alt="">
+                    <img src="res/p5.jpg" alt="">
+                    <img src="res/p6.jpg" alt="">
+                </div>
+
+            </div>
+
+            <!-- EVENT 2 -->
+            <div class="event-card">
+
+                <div class="event-header">
+                    <div>
+                        <h3>ZTGK Competition Showcase</h3>
+                        <span class="event-date">
+                            2026
+                        </span>
+                    </div>
+                </div>
+
+                <p class="event-description">
+                    Kahun was later presented in a competitive environment during the ZTGK showcase,
+                    where it was evaluated by industry professionals and jury members.
+                </p>
+
+                <p class="event-description">
+                    The presentation provided valuable feedback regarding engine architecture, gameplay systems,
+                    and overall project direction.
+                </p>
+
+                <p class="event-description">
+                    This stage marked an important validation point for both the engine and the game,
+                    confirming that the systems we built were stable enough for external evaluation.
+                </p>
+
+                <div class="event-media">
+                    <img src="res/ka1.jpg" alt="">
+                    <img src="res/ka2.jpg" alt="">
+                    <img src="res/ka3.jpg" alt="">
+                    <img src="res/ka4.jpg" alt="">
+                    <img src="res/ka5.jpg" alt="">
+                    <img src="res/ka6.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </details>
 </section>
 
 </body>
