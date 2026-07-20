@@ -85,13 +85,12 @@ document.getElementById("toTop").addEventListener("click", function(e) {
 
         <div class="hero-info">
             <p>
-                Zengine is a custom-built 2D platformer engine developed in C++ using SFML, created to explore low-level game architecture and systems design.
-                The project was designed as a modular and scalable foundation for 2D games, with a strong focus on performance, flexibility, and clean structure.
+                Zengine is a 2D platformer engine developed in C++ using SFML. I wanted to dig into low-level game engine architecture 
+                and really understand what goes on beneath the surface. My focus was making something modular and scalable for  2D games.
             </p>
 
             <p>
-                To demonstrate the engine’s capabilities, I developed a playable Mario-inspired prototype.
-                This version reimagines classic platforming mechanics with my own approach to gameplay systems and implementation.
+                To show what Zengine can do, I made a Mario-inspired prototype. It`s not a remake but my own spin on classic platformer, using gameplay systems I built myself.
             </p>
         </div>
 
@@ -126,15 +125,13 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 <h4>Project Overview</h4>
 
                 <p>
-                    The project was created as part of the <strong>Girls in Games</strong> initiative,
-                    in collaboration with <strong>CD PROJEKT RED</strong> and under the mentorship of
-                    <strong>Przemysław Machniewski</strong>.
+                    I created this project as part of the <strong>Girls in Games</strong> initiative, in collaboration with <strong>CD PROJEKT RED</strong>. I worked under the mentorship of 
+                    <strong>Przemysław Machniewski</strong>, who helped guide me through all the technical challenges.
                 </p>
 
                 <p>
-                    Unlike my previous team projects, this was an individual project where I was responsible
-                    for designing and implementing every system myself while receiving regular technical
-                    guidance and code reviews from my mentor.
+                    This wasn`t typical team effort. I worked alone, designing and coding every part of the engine and game. 
+                    My mentor provided regular feedback and code reviews, which really pushed me to keep improving.
                 </p>
 
             </div>
@@ -159,9 +156,7 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 <h4>Zengine</h4>
 
                 <p class="ps-intro">
-                    Zengine was developed as a modular 2D game engine from scratch in C++ using SFML.
-                    The goal was to gain a deeper understanding of low-level engine architecture by implementing
-                    every core system independently.
+                    The goal was to gain a deeper understanding of low-level engine architecture by implementing every core system independently. 
                 </p>
 
                 <ul>
@@ -181,8 +176,7 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 <h4>Mario Showcase</h4>
 
                 <p class="ps-intro">
-                    To validate the engine architecture, I developed a Mario-inspired platformer entirely on top of Zengine.
-                    The prototype served as a practical demonstration of the engine rather than a recreation of the original game.
+                    Once the foundation was ready, I built the Mario prototype entirely with Zengine. The point wasn`t just to copy Mario, but to see how my engine holds up in a real project.
                 </p>
 
                 <ul>
@@ -191,7 +185,7 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                     <li>Physics and collision handling</li>
                     <li>Animation and audio integration</li>
                     <li>Scene management and UI systems</li>
-                    <li>Gameplay implemented exclusively with custom engine components</li>
+                    <li>All gameplay built only with Zengine`s components</li>
                 </ul>
             </div>
 
@@ -258,26 +252,25 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 <h4>Project Challenges</h4>
 
                 <p class="ps-intro">
-                    Building a custom game engine within a limited timeframe was a completely new experience.
-                    The biggest challenge was designing a solid architecture while simultaneously learning how engine systems interact with one another.
+                    Building a custom game engine was a completely new experience. Especially because I had a very short time to do it. The biggest challenge was designing 
+                    a solid architecture while simultaneously learning how engine systems interact with one another. 
                 </p>
 
                 <ul>
                     <li>
-                        Designing the engine architecture from scratch without previous engine development experience.
-                        The structure evolved significantly throughout the project as I gained a better understanding of system dependencies.
+                        Figuring out engine architecture as I went (lots of changes as I learned more about what works).
                     </li>
 
                     <li>
-                        Implementing level loading and scene transitions in a scalable way while keeping the workflow efficient for content creation.
+                        Creating level loading and scene transitions that made adding content easy and efficient.
                     </li>
 
                     <li>
-                        Separating the engine code from the game itself. This process started relatively late, making the refactoring much more time-consuming than expected.
+                        Separating the engine from the game later in development which turned out to be much more work than if I`d done it from the start
                     </li>
 
                     <li>
-                        Developing the entire project within a relatively short mentoring program while continuously learning new concepts and development practices.
+                        Completing it all within a short mentoring program, picking up new concepts as fast as I could.
                     </li>
                 </ul>
             </div>
@@ -286,25 +279,25 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 <h4>How I Solved It</h4>
 
                 <p class="ps-intro">
-                    The project was developed iteratively with regular feedback from my mentor, Przemysław Machniewski.
-                    His guidance helped me improve the architecture and better understand engine development practices.
+                    The way I worked changed a lot as I went along, mostly thanks to ongoing feedback from my mentor, Przemysław Machniewski. 
+                    His guidance helped me not just write better code but also understand engine development practices. 
                 </p>
 
                 <ul>
                     <li>
-                        Continuously refactored the engine architecture as new systems were introduced, resulting in a much cleaner and more modular design.
+                        I refactored the architecture several times as I added new features, ending up with something much cleaner.
                     </li>
 
                     <li>
-                        Integrated the Tiled level editor into the workflow, allowing maps to be created visually and exported as JSON files. I then implemented a custom world-loading system capable of recreating entire levels from this data.
+                        I used the Tiled level editor and built a custom loader to import JSON map data, making maps easy to edit and reuse.
                     </li>
 
                     <li>
-                        Gradually separated engine modules from game-specific code, refactoring one system at a time until the engine became largely independent of the Mario prototype.
+                        Step by step, I separated engine modules from game-specific code until Zengine could stand on its own.
                     </li>
 
                     <li>
-                        Regular mentoring sessions and code reviews helped me identify architectural issues early and apply better practices throughout the project.
+                        Regular mentoring sessions and code reviews helped me catch and fix architectural issues early.
                     </li>
                 </ul>
             </div>
@@ -313,13 +306,12 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 <h4>What I Would Do Differently</h4>
 
                 <p>
-                    If I started the project again, I would separate the engine from the game from the very beginning.
-                    Retrofitting this separation later required a considerable amount of refactoring that could have been avoided with a clearer initial architecture.
+                    If I started the project again, I would separate the engine from the game from the very beginning. It would`ve saved hours of refactoring and made the whole structure more solid.
                 </p>
 
                 <p>
-                    Despite that, this project completely changed the way I think about game engines and gave me a much deeper understanding of how their internal systems work together.
-                    Working under the mentorship of Przemysław Machniewski was an invaluable experience, and I would gladly take on a similar challenge again.
+                    Still, working on this project completely changed how I think about game engines. I have a much deeper understanding of how their internal systems work together. 
+                    And honestly, getting to learn from Przemysław Machniewski was incredibly valuable, and I would gladly take on a similar challenge again. 
                 </p>
             </div>
 
@@ -327,7 +319,7 @@ document.getElementById("toTop").addEventListener("click", function(e) {
 
         <div class="video-container">
             <p class="ps-intro">
-                <strong>Curious how the engine was built?</strong> The video below documents the development process, from the first engine systems to the final Mario-inspired prototype.
+                <strong>Curious how the engine was built?</strong> The video below documents the development process, from the first engine systems to the final game.
             </p>
 
             <iframe
@@ -425,13 +417,13 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 </div>
 
                 <p class="event-description">
-                    The collaboration with CD PROJEKT RED included a series of visits and workshops that supported the development of our project from its early stage.
-                    The first meeting marked the official start of the project, followed by regular sessions focused on both technical and soft skills development.
+                    Beyond the coding, working with CD PROJEKT RED meant I joined a series of visits and workshops with their team. The kickoff meeting started everything, 
+                    and after that we had regular sessions. Some of them focused on code, others on teamwork and communication.
                 </p>
 
                 <p class="event-description">
-                    Each workshop covered different aspects of game development, including production pipelines, teamwork, communication, and design practices,
-                    helping us better understand how professional game studios operate in a real production environment.
+                    Each workshop covered a different side of game development: production pipelines, design, how teams operate, and what makes a real studio tick. 
+                    It all gave me a fresh look at how games actually get made.
                 </p>
 
                 <div class="event-media">
@@ -462,12 +454,8 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 </div>
 
                 <p class="event-description">
-                    I had the opportunity to participate in the Women in Tech Summit, which featured a wide range of talks and workshops led by industry professionals.
-                    It was one of my first large international events in English, making it both a professional and personal challenge.
-                </p>
-
-                <p class="event-description">
-                    The experience helped me improve my communication skills in an international environment while gaining insight into different areas of technology and game development.
+                    I also went to the Women in Tech Summit, where I got to hear from industry pros and test my communication skills in English.
+                    It was one of my first big international events, and I left with new insights into both tech and game development.
                 </p>
 
                 <div class="event-media">
@@ -503,12 +491,9 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 </div>
 
                 <p class="event-description">
-                    I participated in the Promised Land Festival, where I attended a series of talks and workshops focused on game development and the creative industry.
-                    The event brought together professionals from different fields, providing valuable insight into industry practices.
-                </p>
-
-                <p class="event-description">
-                    It was also an opportunity to further develop my soft skills and gain a broader perspective on working in the game development industry.
+                    At the Promised Land Festival, I joined talks and workshops all about the creative side of the industry. 
+                    The event brought together professionals from different fields. I came back with a broader perspective on 
+                    how the game development world works and some really valuable soft skills too.
                 </p>
 
                 <div class="event-media">
