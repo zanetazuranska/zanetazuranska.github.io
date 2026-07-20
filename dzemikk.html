@@ -88,13 +88,7 @@ document.getElementById("toTop").addEventListener("click", function(e) {
             </p>
 
             <p>
-                Players take on the role of a young shaman who wields magical runes to battle hostile creatures,
-                explore a mysterious island one hex at a time, and rescue a kidnapped son from the forces that threaten the world.
-            </p>
-
-            <p>
-                The project combines tactical hex-based exploration, rune-based combat, and environmental puzzles,
-                while serving as a showcase of the capabilities of our in-house 3D engine.
+                Players step into the shoes of a young shaman using magical runes to fight enemys, explore island and try to rescue his kidnapped son from dark forces.
             </p>
         </div>
 
@@ -161,11 +155,8 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 <h2>My Role in the Project</h2>
 
                 <p>
-                    I served as both <strong>Team Leader</strong> and
-                    <strong>Engine & Gameplay Programmer</strong>. My work covered
-                    both the development of the custom engine and gameplay systems,
-                    while also coordinating the team, managing the repository, and
-                    integrating features into the final builds.
+                    I led the team and handled both engine and gameplay programming. That meant developing core engine features and gameplay systems, 
+                    managing the code repository, and integrating features into the final builds.
                 </p>
 
                 <div class="role-block">
@@ -177,7 +168,7 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                         <li>Render pass architecture</li>
                         <li>Post-processing pipeline</li>
                         <li>Asset Manager</li>
-                        <li>Asynchronous asset loading</li>
+                        <li>Asynchronous asset loading - Implemented with the assistance of generative AI tools.</li>
                         <li>Hot-reloading for engine assets</li>
                         <li>Skeletal animation asset support</li>
                         <li>Editor development</li>
@@ -247,8 +238,7 @@ document.getElementById("toTop").addEventListener("click", function(e) {
             <div class="repo-title">Kahun</div>
 
             <p class="repo-desc">
-                Source code for Kahun and its custom 3D engine, including the rendering pipeline, asset manager,
-                editor tools, AI systems, gameplay mechanics, UI, and engine architecture built in C++ with OpenGL.
+                Source code for custom 3D engine, editor tools and gameplay mechanics.
             </p>
 
             <div class="repo-actions">
@@ -298,7 +288,7 @@ document.getElementById("toTop").addEventListener("click", function(e) {
 
             <p class="ps-intro">
                 <strong>Custom Engine Editor in Action</strong><br>
-                The video below showcases the custom editor I developed for the engine. It allows designers to create and edit scenes, build and manage prefabs, configure UI elements, place and manipulate objects, and adjust game properties in real time. These tools significantly streamlined the content creation workflow and made rapid iteration during development much more efficient.
+                The video below show the custom editor I developed for the engine. It allows designers to create and edit scenes, build and manage prefabs, configure UI elements, place and manipulate objects.
             </p>
 
             <iframe
@@ -318,8 +308,7 @@ document.getElementById("toTop").addEventListener("click", function(e) {
 
             <p class="repo-desc">
                 The project includes motion capture data integrated into the animation system,
-                allowing for more natural and realistic animations. Mocap data was processed
-                and adapted to the custom animation pipeline built in the engine.
+                allowing for more natural and realistic animations. 
             </p>
 
             <div class="video-container">
@@ -355,28 +344,25 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 <h4>Project Challenges</h4>
 
                 <p class="ps-intro">
-                    Kahun was developed in an extremely short timeframe of around 4 months, during which we had to build a full game engine, editor, and a playable game simultaneously.
-                    The biggest challenge was maintaining a clear production structure and keeping development on schedule while rapidly iterating on core systems.
+                    We pulled all this together in just four months. We had to build the engine, the editor, and the game all at once. 
+                    The biggest challenge was keeping production organized and moving fast, all while constantly iterating on core systems.
                 </p>
 
                 <ul>
                     <li>
-                        Delivering a complete engine, editor, and game within ~4 months required strict planning and a very disciplined workflow.
-                        We addressed this by defining a clear production schedule and dividing work into tightly scoped milestones.
+                        Delivering a complete engine, editor, and game within 4 months required strict planning and a very disciplined workflow.
                     </li>
 
                     <li>
-                        First-time experience with motion capture integration, which significantly increased production complexity and required dedicated time for experimentation and setup.
-                        To manage this, we temporarily assigned a small dedicated sub-team to handle mocap workflows and integration.
+                        Motion capture integration was new for us and it brought a lot of complexity.
                     </li>
 
                     <li>
                         Performance and optimization challenges typical for custom engine development.
-                        Without an off-the-shelf framework, we had to design performance-aware systems from the ground up.
                     </li>
 
                     <li>
-                        Designing enemy AI that supports readable yet strategic gameplay, allowing players to plan and adapt rather than react randomly.
+                        Designing enemy AI that supports strategic gameplay, allowing players to plan not just reacting randomly. 
                     </li>
                 </ul>
             </div>
@@ -385,27 +371,26 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 <h4>How We Solved It</h4>
 
                 <p class="ps-intro">
-                    The project succeeded thanks to strong scheduling discipline, iterative development, and building robust systems from the beginning rather than patching issues later.
+                    The project succeeded thanks to strong scheduling discipline and iterative development. 
                 </p>
 
                 <ul>
                     <li>
-                        Strict production timeline with clearly defined milestones helped us keep scope under control and deliver engine, editor, and gameplay in parallel.
+                        We kept our goals tightly scoped and made sure everyone knew what to focus on for each phase.
                     </li>
 
                     <li>
-                        Motion capture production was split between two dedicated contributors, which allowed the rest of the team to continue engine and gameplay development without disruption.
+                        To handle it, we split off a smaller sub-team just for mocap, so the rest of us could stay focused on the main engine and gameplay. 
                     </li>
 
                     <li>
-                        Performance was addressed at the architectural level:
-                        the asset system was designed to prevent duplication, while rendering uses instancing, frustum culling, and backface culling.
-                        Collision systems rely on octree spatial partitioning, and many gameplay systems use dirty-flag optimization to avoid unnecessary updates.
+                        Asset system was designed to prevent duplication, while rendering uses instancing, frustum culling, and backface culling.
+                        Collision systems rely on octree, and many gameplay systems use dirty-flag optimization to avoid unnecessary updates.
                     </li>
 
                     <li>
                         AI was implemented as a hybrid system combining Utility-Based AI and Behaviour Trees,
-                        allowing enemies to select actions dynamically based on game state and player behavior, creating more adaptive and strategic encounters.
+                        allowing enemies to select actions dynamically based on game state and player behavior.
                     </li>
                 </ul>
             </div>
@@ -414,13 +399,12 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 <h4>What I Would Do Differently</h4>
 
                 <p>
-                    Looking back, I would place significantly more focus on visual quality, readability, and polish earlier in production.
-                    In the final stage of the project, time constraints limited how much we could refine presentation and clarity.
+                    Looking back, I would`ve put more energy into visuals and polish much earlier. We just ran out of time at the end for that extra level of presentation.
                 </p>
 
                 <p>
-                    Despite that, Kahun was an extremely valuable experience that combined engine development, tool creation, and gameplay design in a single production.
-                    It strongly improved my understanding of full pipeline game development and large-scale system architecture.
+                    Still, Kahun was a huge learning experience. It brought together engine development, editor tools, and gameplay design. 
+                    I came away with a much stronger sense of what a full-scale game pipeline looks like.
                 </p>
             </div>
 
@@ -493,7 +477,7 @@ document.getElementById("toTop").addEventListener("click", function(e) {
             </div>
 
             <p class="download-desc">
-                Play the latest available version of Kahun on itch.io and experience the game built on our custom C++ / OpenGL engine.
+                Play the latest available version of Kahun on itch.io and experience the game.
             </p>
 
             <div class="download-info">
@@ -519,30 +503,23 @@ document.getElementById("toTop").addEventListener("click", function(e) {
 
         <div class="events">
 
-            <!-- EVENT 1 -->
             <div class="event-card">
 
                 <div class="event-header">
                     <div>
                         <h3>Prototype Showcase & Public Playtests</h3>
                         <span class="event-date">
-                            Early Development
+                            2026
                         </span>
                     </div>
                 </div>
 
                 <p class="event-description">
-                    At an early prototyping stage, Kahun was presented to external players to validate the core gameplay loop
-                    and test whether the main mechanics were fun, readable, and engaging.
+                    At an early prototyping stage, Kahun was presented to outside players to validate the core gameplay loop and test whether the main mechanics were fun
                 </p>
 
                 <p class="event-description">
-                    These sessions focused on gathering direct player feedback on movement, combat feel, and exploration,
-                    helping us identify issues early and iterate on the core design.
-                </p>
-
-                <p class="event-description">
-                    The feedback from these playtests had a major impact on shaping the final direction of the game.
+                    That player feedback shaped a lot of what we ended up doing.
                 </p>
 
                 <div class="event-media">
@@ -569,18 +546,8 @@ document.getElementById("toTop").addEventListener("click", function(e) {
                 </div>
 
                 <p class="event-description">
-                    Kahun was later presented in a competitive environment during the ZTGK showcase,
-                    where it was evaluated by industry professionals and jury members.
-                </p>
-
-                <p class="event-description">
-                    The presentation provided valuable feedback regarding engine architecture, gameplay systems,
-                    and overall project direction.
-                </p>
-
-                <p class="event-description">
-                    This stage marked an important validation point for both the engine and the game,
-                    confirming that the systems we built were stable enough for external evaluation.
+                    Later, we showed Kahun at the ZTGK showcase, where it was evaluated by industry professionals and jury members.
+                    They gave us direct feedback on our engine, gameplay, and overall approach. Having the project stand up to that level of outside review was a big moment.
                 </p>
 
                 <div class="event-media">
